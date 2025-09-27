@@ -1,0 +1,39 @@
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Machine Learning / Deep Learning artifacts
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Data (opsional, kalau dataset besar jangan commit ke git)
+data/
+*.csv
+*.tsv
+*.parquet
+*.npz
+*.npy
